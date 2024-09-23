@@ -2,7 +2,7 @@ import mongoose, { mongo } from "mongoose";
 import { ObjectId, Types, Schema } from "mongoose";
 
 const ClientSchema = new Schema({
-    nome:{
+    name:{
         type: String,
         trim: true,
         required: true
